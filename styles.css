@@ -3,7 +3,7 @@
   src: url("fonts/futurino-outline-bold.ttf") format("truetype");
 }
 
-/* overflow: hidden; */
+/*  */
 
 /* General Styling */
 body {
@@ -12,6 +12,7 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 h1 {
@@ -33,9 +34,9 @@ main {
 
 #pita-chef {
   position: absolute;
-  top: -12em;
+  top: -13em;
   left: 20px;
-  width: 240px;
+  width: 230px;
   height: auto;
 }
 
@@ -154,7 +155,7 @@ main {
 .Pita-four {
   position: absolute;
   top: -25.5em; /* Adjust as needed */
-  left: 50em; /* Adjust this too if needed */
+  left: 45em; /* Adjust this too if needed */
   width: 25rem;
   z-index: 2;
 }
@@ -165,7 +166,7 @@ main {
 .Sauce-four {
   position: absolute;
   top: -21em; /* Adjust as needed */
-  left: 50.7em; /* Adjust this too if needed */
+  left: 45.7em; /* Adjust this too if needed */
   width: 23.5rem;
   z-index: 3;
 }
@@ -176,7 +177,7 @@ main {
 .Topping-four {
   position: absolute;
   top: -21.5em; /* Adjust as needed */
-  left: 48.5em; /* Adjust this too if needed */
+  left: 43.5em; /* Adjust this too if needed */
   width: 28rem;
   z-index: 4;
 }
