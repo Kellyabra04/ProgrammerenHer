@@ -3,8 +3,6 @@
   src: url("fonts/futurino-outline-bold.ttf") format("truetype");
 }
 
-/*  */
-
 /* General Styling */
 body {
   font-family: Arial, sans-serif;
@@ -155,7 +153,7 @@ main {
 .Pita-four {
   position: absolute;
   top: -25.5em; /* Adjust as needed */
-  left: 45em; /* Adjust this too if needed */
+  left: 50%; /* Adjust this too if needed */
   width: 25rem;
   z-index: 2;
 }
@@ -166,7 +164,7 @@ main {
 .Sauce-four {
   position: absolute;
   top: -21em; /* Adjust as needed */
-  left: 45.7em; /* Adjust this too if needed */
+  left: 50.8%; /* Adjust this too if needed */
   width: 23.5rem;
   z-index: 3;
 }
@@ -177,7 +175,7 @@ main {
 .Topping-four {
   position: absolute;
   top: -21.5em; /* Adjust as needed */
-  left: 43.5em; /* Adjust this too if needed */
+  left: 48.4%; /* Adjust this too if needed */
   width: 28rem;
   z-index: 4;
 }
