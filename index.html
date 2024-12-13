@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pita Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Papa's Pitaria</h1>
+
+    <main>
+      <img id="pita-chef" src="Images/ikachef.png" alt="Ika Chef" />
+      <section class="ingredient-categories">
+        <div class="ingredient-group">
+          <h2>Pita</h2>
+          <ul class="pita-options">
+            <li><img src="Images/dough1.png" alt="Dough 1" /></li>
+            <li><img src="Images/dough2.png" alt="Dough 2" /></li>
+            <li><img src="Images/dough3.png" alt="Dough 3" /></li>
+            <li><img src="Images/dough4.png" alt="Dough 4" /></li>
+          </ul>
+        </div>
+
+        <div class="ingredient-group">
+          <h2>Saus</h2>
+          <ul class="sauce-options">
+            <li><img src="Images/sauce1.png" alt="sauce 1" /></li>
+            <li><img src="Images/sauce2.png" alt="sauce 2" /></li>
+            <li><img src="Images/sauce3.png" alt="sauce 3" /></li>
+            <li><img src="Images/sauce4.png" alt="sauce 4" /></li>
+          </ul>
+        </div>
+
+        <div class="ingredient-group">
+          <h2>Toppings</h2>
+          <ul class="topping-options">
+            <li><img src="Images/falafel.png" alt="topping falafel" /></li>
+            <li><img src="Images/salad.png" alt="topping salad" /></li>
+            <li><img src="Images/tomato.png" alt="topping tomatoes" /></li>
+            <li><img src="Images/cucumber.png" alt="topping cucumber" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="plate-area">
+        <!-- The Plate -->
+        <img src="Images/plate.png" alt="Plate" class="plate" />
+
+        <!-- Pita Bases -->
+        <img class="Pita-one hidden" src="Images/dough1.png" alt="Dough 1" />
+        <img class="Pita-two hidden" src="Images/dough2.png" alt="Dough 2" />
+        <img class="Pita-three hidden" src="Images/dough3.png" alt="Dough 3" />
+        <img class="Pita-four hidden" src="Images/dough4.png" alt="Dough 4" />
+
+        <!-- Sauces -->
+        <img class="Sauce-one hidden" src="Images/sauce1.png" alt="Sauce 1" />
+        <img class="Sauce-two hidden" src="Images/sauce2.png" alt="Sauce 2" />
+        <img class="Sauce-three hidden" src="Images/sauce3.png" alt="Sauce 3" />
+        <img class="Sauce-four hidden" src="Images/sauce4.png" alt="Sauce 4" />
+
+        <!-- Toppings -->
+        <img
+          class="Topping-one hidden"
+          src="Images/falafel.png"
+          alt="Falafel"
+        />
+        <img class="Topping-two hidden" src="Images/salad.png" alt="Salad" />
+        <img
+          class="Topping-three hidden"
+          src="Images/tomato.png"
+          alt="Tomato"
+        />
+        <img
+          class="Topping-four hidden"
+          src="Images/cucumber.png"
+          alt="Cucumber"
+        />
+      </section>
+      <section class="actions">
+        <div class="eat-button">
+          <img src="Images/eatface.png" alt="Eat" />
+          <p>Eat</p>
+        </div>
+        <div class="trash-button">
+          <img src="Images/trashicone.png" alt="Trash" />
+          <p>Throw Away</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
